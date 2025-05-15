@@ -44,21 +44,6 @@ CAFV eligibility databases
 Vehicle specifications including range capabilities
 Geographical distribution data
 
- Installation & Usage
-Option 1: View Online
-Access the dashboard directly on Tableau Public: Electric Vehicle Data Analysis
-Option 2: Local Installation
-
-Clone this repository
-
-bashgit clone https://github.com/yourusername/electric-vehicle-analysis.git
-
-Open the Tableau workbook file
-
-Electric_Vehicle_Project.twbx
-
-Connect to the data source or use the packaged data
-
 Filtering and Interaction
 
 Use the left panel filters to select specific:
