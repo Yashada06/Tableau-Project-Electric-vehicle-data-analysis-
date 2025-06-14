@@ -1,74 +1,73 @@
-# Tableau-Project-Electric-vehicle-data-analysis-
+# Tableau-Project-Video-Game-Data-Analysis
 
- Overview
-This project provides a comprehensive analysis of electric vehicle (EV) adoption and distribution across the United States using Tableau. The dashboard visualizes key metrics related to Battery Electric Vehicles (BEVs) and their characteristics, offering insights into market trends, geographical distribution, and manufacturer performance.
- Dashboard Features
-Key Metrics
+Overview
+This repository contains insights and analysis from a comprehensive video game sales dashboard built in Tableau. The dashboard visualizes global video game sales data across multiple dimensions including genres, publishers, platforms, individual game titles, and temporal trends.
+Dashboard Components
+1. Total Sales by Genre (Bar Chart)
 
-Total Vehicle Count: Track the complete inventory of electric vehicles (15,595 total)
-Vehicle Type Distribution: Analysis of BEVs vs PHEVs
-Average Electric Range: Visualize the typical range capability (8,251.3 miles)
+Purpose: Shows sales performance across different game genres
+Key Metric: Zone Sales in millions
+Visualization: Horizontal bar chart with color-coded genres
 
-Interactive Visualizations
+2. Top 10 Publishers by Sales (Treemap)
 
-Temporal Analysis: Vehicle registration trends by model year (2011-2024)
-Geographic Distribution: State-level adoption rates with interactive map
-Manufacturer Market Share: Top manufacturers by volume and percentage
-CAFV Eligibility: Clean Alternative Fuel Vehicle eligibility status breakdown
+Purpose: Identifies leading game publishers by total sales volume
+Key Metric: Publisher sales comparison
+Visualization: Treemap with proportional rectangles
 
- Key Insights
+3. Top 10 Names by Sales (Horizontal Bar Chart)
 
-Market Dominance: Nissan leads with 86.51% market share (13,491 vehicles)
-Secondary Players: FIAT (5.17%), Polestar (4.90%), Jaguar (1.46%)
-Geographic Concentration: Significant concentration in Washington state (15,584 vehicles)
-Temporal Trends: Peak registrations in 2014 (~2.1K) and 2011 (~2.0K) with recent decline
+Purpose: Highlights best-selling individual game titles
+Key Metric: Individual game sales performance
+Visualization: Horizontal bar chart with sales values
 
- Technical Implementation
-Built With
+4. Top 10 Platform by Sales (Bubble Chart)
 
-Tableau Public/Desktop
-Data visualization techniques including:
+Purpose: Compares gaming platform performance
+Key Metric: Platform-specific sales data
+Visualization: Bubble chart with platform labels and sales values
 
-Choropleth maps
-Time series analysis
-Pie charts for categorical distribution
-Bar charts for comparative analysis
+5. Sales by Year and Genre (Area Chart)
+
+Purpose: Shows temporal trends in gaming sales across genres
+Key Metric: Year-over-year sales progression (1980-2020)
+Visualization: Stacked area chart with genre-based color coding
+
+Key Insights
+Genre Performance
+
+Action games dominate with 1,751M in sales
+Sports (1,331M) and Shooter (1,037M) genres follow as strong performers
+Lower-performing genres include Racing, Fighting, and Simulation
+Strategic Implication: High-action, competitive gaming experiences drive market success
+
+Publisher Landscape
+
+Nintendo leads the market with significant sales dominance
+Top 4 Publishers: Nintendo, Activision, Ubisoft, THQ
+Strong publisher ecosystems correlate with market success
+Strategic Implication: Franchise ownership and exclusive content drive publisher success
+
+Individual Game Performance
+
+Call of Duty franchise dominates individual game sales
+
+Call of Duty: Black Ops (31.03M)
+Call of Duty: Modern Warfare (35.82M)
 
 
+Grand Theft Auto V shows strong performance (55.92M)
+Nintendo exclusives (Mario Kart 8, Super Mario Bros., Pokemon) perform consistently well
+Strategic Implication: Franchise power and brand recognition drive individual game success
 
-Data Sources
-This dashboard utilizes data from:
+Platform Analysis
 
-Electric vehicle registration records
-CAFV eligibility databases
-Vehicle specifications including range capabilities
-Geographical distribution data
+PlayStation ecosystem shows strong market presence
 
-Filtering and Interaction
-
-Use the left panel filters to select specific:
-
-States
-CAFV eligibility status
-Model years
-Manufacturers
+PS2 particularly prominent (1,255.6M total sales)
+PS, PS3 also well-represented
 
 
-Click on chart elements to drill down into detailed information
-
- Data Refresh Process
-For those continuing development:
-
-Update the source data files in the data directory
-Open the Tableau workbook and navigate to Data Source
-Select "Refresh" to update all visualizations
-Republish to Tableau Public or your preferred hosting solution
-
- Future Development
-Planned enhancements include:
-
-Integration of charging infrastructure data
-Price comparison analysis
-Carbon footprint reduction metrics
-Battery degradation analysis
-Incentive program impact assessment
+Multi-platform presence essential for market reach
+Nintendo Wii and Xbox 360 demonstrate significant market impact
+Strategic Implication: Multi-platform releases maximize market penetration
